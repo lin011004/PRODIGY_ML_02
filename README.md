@@ -7,7 +7,7 @@ This project involves segmenting customers based on their annual income and spen
 The project consists of the following files:
 
 - `Mall_Customers.csv`: The dataset containing customer information.
-- `customer_segmentation.py`: The Python script containing the code for preprocessing, clustering, and visualizing the customer segments.
+- `Task2.py`: The Python script containing the code for preprocessing, clustering, and visualizing the customer segments.
 - `README.md`: This file.
 
 ## Requirements
@@ -25,7 +25,7 @@ pip install pandas scikit-learn matplotlib
 
 ## Code Overview
 
-The script `customer_segmentation.py` performs the following steps:
+The script `Task2.py` performs the following steps:
 
 1. **Load the Data**: The data is loaded from `Mall_Customers.csv`.
 
@@ -104,10 +104,10 @@ The script `customer_segmentation.py` performs the following steps:
 ## Running the Code
 
 1. Ensure that `Mall_Customers.csv` is placed in the appropriate directory as specified in the script.
-2. Run the script `customer_segmentation.py`.
+2. Run the script `Task2.py`.
 
     ```sh
-    python customer_segmentation.py
+    python Task2.py
     ```
 
 3. The script will display the elbow method plot, visualize the clusters, and print the mean values for each cluster.
